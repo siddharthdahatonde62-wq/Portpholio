@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Personal portfolio of Siddharth Dahatonde, B.Tech Computer Science Engineering student.">
+    <title>Siddharth Dahatonde | Portfolio</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- External CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- ========== Header / Navigation ========== -->
+    <header class="header">
+        <nav class="navbar">
+            <a href="#home" class="logo">Siddharth<span>.</span></a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <!-- ========== Home / Hero Section ========== -->
+        <section id="home" class="hero">
+            <div class="hero-text">
+                <p class="greeting">Welcome to my portfolio</p>
+                <h1>Hi, I'm <span class="highlight">Siddharth Dahatonde</span></h1>
+                <p class="intro">
+                    A first-year B.Tech Computer Science Engineering student who enjoys
+                    building backend systems, local AI applications and practical software
+                    with Python.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Contact Me</a>
+                    <a href="#projects" class="btn btn-outline">View Projects</a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/profile.jpg" alt="Profile photo of Siddharth Dahatonde">
+            </div>
+        </section>
+
+        <!-- ========== About Section ========== -->
+        <section id="about" class="section">
+            <h2 class="section-title">About Me</h2>
+            <div class="about-grid">
+                <div class="about-card">
+                    <h3>Who I Am</h3>
+                    <p>
+                        I am Siddharth Dahatonde from Mumbai, Maharashtra. I like turning ideas
+                        into working software and learning how real-world backend systems are
+                        built. I enjoy hackathons, teamwork and solving problems with code.
+                    </p>
+                </div>
+                <div class="about-card">
+                    <h3>Education</h3>
+                    <p>
+                        <strong>B.Tech, Computer Science Engineering</strong><br>
+                        NIAT at Alard University<br>
+                        Expected Graduation: 2030
+                    </p>
+                </div>
+                <div class="about-card">
+                    <h3>Interests &amp; Career Goals</h3>
+                    <p>
+                        I am interested in backend development, local AI applications and
+                        document retrieval. My goal is to secure a Python / Backend internship
+                        and grow into a software engineer who builds reliable, useful products.
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== Skills Section ========== -->
+        <section id="skills" class="section section-alt">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <span class="skill-icon">🐍</span>
+                    <h3>Python</h3>
+                    <p>Backend development fundamentals and scripting.</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">⚡</span>
+                    <h3>FastAPI &amp; REST APIs</h3>
+                    <p>Building API endpoints and integrating services.</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🌐</span>
+                    <h3>HTML &amp; CSS</h3>
+                    <p>Structured, responsive web pages with Flexbox and Grid.</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🤖</span>
+                    <h3>RAG &amp; Local AI</h3>
+                    <p>Ollama, ChromaDB and semantic retrieval concepts.</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🔧</span>
+                    <h3>Git &amp; GitHub</h3>
+                    <p>Version control and collaborating on code.</p>
+                </div>
+                <div class="skill-card">
+                    <span class="skill-icon">🐞</span>
+                    <h3>Debugging &amp; Testing</h3>
+                    <p>Finding and fixing issues step by step.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- ========== Projects Section ========== -->
+        <section id="projects" class="section">
+            <h2 class="section-title">My Projects</h2>
+            <div class="projects-grid">
+
+                <article class="project-card">
+                    <div class="project-image project-image-ai">
+                        <span>📄 CampusProof</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>CampusProof &ndash; Offline AI Assistant</h3>
+                        <p>
+                            An offline, citation-first AI assistant that answers questions from
+                            college PDF documents. Built at the NIAT &times; MLH Hacktoberfest Hack
+                            Day, Pune, where I led the team and built the backend and retrieval
+                            parts.
+                        </p>
+                        <ul class="tags">
+                            <li>Python</li>
+                            <li>FastAPI</li>
+                            <li>Ollama</li>
+                            <li>ChromaDB</li>
+                        </ul>
+                    </div>
+                </article>
+
+                <article class="project-card">
+                    <div class="project-image project-image-web">
+                        <span>💼 Portfolio</span>
+                    </div>
+                    <div class="project-content">
+                        <h3>Personal Portfolio Website</h3>
+                        <p>
+                            This responsive portfolio website, built using only HTML5 and CSS3.
+                            It uses Flexbox and CSS Grid for layout, hover effects, and a contact
+                            form with built-in HTML validation.
+                        </p>
+                        <ul class="tags">
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                            <li>Flexbox</li>
+                            <li>Grid</li>
+                        </ul>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- ========== Contact Section ========== -->
+        <section id="contact" class="section section-alt">
+            <h2 class="section-title">Contact Me</h2>
+            <p class="section-subtitle">Have a question or an opportunity? Send me a message.</p>
+
+            <form class="contact-form" action="#" method="post">
+                <div class="form-group">
+                    <label for="name">Full Name</label>
+                    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="subject">Subject</label>
+                    <input type="text" id="subject" name="subject" placeholder="Subject of your message" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here..." required></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </form>
+        </section>
+
+    </main>
+
+    <!-- ========== Footer ========== -->
+    <footer class="footer">
+        <h3>Siddharth Dahatonde</h3>
+        <ul class="social-links">
+            <li><a href="https://github.com/siddharthdahatonde62-wq" target="_blank" rel="noopener">GitHub</a></li>
+            <li><a href="https://linkedin.com/in/siddharth-dahatonde-583493427/" target="_blank" rel="noopener">LinkedIn</a></li>
+            <li><a href="mailto:siddharthdahatonde62@gmail.com">Email</a></li>
+        </ul>
+        <p>&copy; 2026 Siddharth Dahatonde. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
